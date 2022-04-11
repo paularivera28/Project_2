@@ -5,7 +5,7 @@
 1. [Project Motivation](#motivation)
 2. [File Description](#Description)
 3. [Instructions](#Instructions)
-4. [Licensing, Authors, and Acknowledgements](#licensing)
+4. [Results](#Results)
 
 
 ## Project Motivation <a name="motivation"></a>
@@ -35,3 +35,8 @@ Follow the steps below to run the app
 2. To change the location to the directory app write `cd app` and then `python run.py` to run the web app
 
 3. Visit this link to see the Dashboard  http://0.0.0.0:3001/
+
+## Results <a name="Results"></a>
+Here is an imagen of the resulting app create with all the development sollowed in the project
+![image](https://user-images.githubusercontent.com/100497288/162668299-8ac76e57-b0a8-4cca-9a17-234d20ef0f73.png)
+
