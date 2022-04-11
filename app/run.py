@@ -42,6 +42,21 @@ def index():
     # TODO: Below is an example - modify to extract data for your own visuals
     genre_counts = df.groupby('genre').count()['message']
     genre_names = list(genre_counts.index)
+    
+    # Category data for plotting
+    categories =  df[df.columns[4:]]
+    cate_counts = (categories.mean()*categories.shape[0]).sort_values(ascending=False)
+    cate_names = list(cate_counts.index)
+    
+    #Distributions of the two most common classes by genre
+      
+    #Distribution on related by genre
+    mp_counts = df.groupby('genre').count()['related']
+    mp_names = list(mp_counts.index)
+    
+    #Distribution on related by genre
+    ar_counts = df.groupby('genre').count()['aid_related']
+    ar_names = list(ar_counts.index)
    
     # create visuals
     # TODO: Below is an example - modify to create your own visuals
@@ -93,7 +108,7 @@ def index():
             ],
 
             'layout': {
-                'title': 'Distribution of  Genres by Relate Categorie',
+                'title': 'Distribution of Genres by Relate Categorie',
                 'yaxis': {
                     'title': "Count"
                 },
