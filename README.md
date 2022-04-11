@@ -38,5 +38,7 @@ Follow the steps below to run the app
 
 ## Results <a name="Results"></a>
 Here is an imagen of the resulting app create with all the development sollowed in the project
-![image](https://user-images.githubusercontent.com/100497288/162668299-8ac76e57-b0a8-4cca-9a17-234d20ef0f73.png)
 
+#![image](https://user-images.githubusercontent.com/100497288/162668299-8ac76e57-b0a8-4cca-9a17-234d20ef0f73.png)
+
+![image](https://user-images.githubusercontent.com/100497288/162784170-dd551273-df7c-476f-8937-02220a560f8c.png)
