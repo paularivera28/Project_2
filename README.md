@@ -1,5 +1,6 @@
 # Disaster Response Pipeline Project
-### Table of Contents
+
+## Table of Contents
 
 1. [Project Motivation](#motivation)
 2. [File Description](#Description)
@@ -33,6 +34,4 @@ Follow the steps below to run the app
 
 2. To change the location to the directory app write `cd app` and then `python run.py` to run the web app
 
-3. Run your web app: `python run.py`
-
-4. Visit this link to see the Dashboard http://0.0.0.0:3001/
+3. Visit this link to see the Dashboard  http://0.0.0.0:3001/
