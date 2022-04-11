@@ -6,6 +6,6 @@ This project is part of the Data Scientist Nanodegree Program of udacity, who ha
 
 ## Files
 
-This project contains 3 folder with the following descriptions
+The repositori has 3 folder with the following descriptions
 
-[someLabel](directory/relative/link.txt)
+[data](directory/relative/link.txt)
