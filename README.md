@@ -8,4 +8,4 @@ This project is part of the Data Scientist Nanodegree Program of udacity, who ha
 
 The repositori has 3 folder with the following descriptions
 
-[data](directory/data)
+[data](https://github.com/paularivera28/Project_2/tree/main/datae)
