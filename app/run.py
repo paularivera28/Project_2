@@ -63,8 +63,63 @@ def index():
                     'title': "Genre"
                 }
             }
-        }
-           
+        },
+        # category plotting (Visualization#2)
+        {
+            'data': [
+                Bar(
+                    x=cate_names,
+                    y=cate_counts
+                )
+            ],
+
+            'layout': {
+                'title': 'Distribution of Message Categories',
+                'yaxis': {
+                    'title': "Count"
+                },
+                'xaxis': {
+                    'title': "Categories"
+                }
+            }
+            
+        },
+        {
+            'data': [
+                Bar(
+                    x=mp_names,
+                    y=mp_counts
+                )
+            ],
+
+            'layout': {
+                'title': 'Distribution of  Genres by Relate Categorie',
+                'yaxis': {
+                    'title': "Count"
+                },
+                'xaxis': {
+                    'title': "Genres"
+                }
+            }
+        },
+         {
+            'data': [
+                Bar(
+                    x=ar_names,
+                    y=ar_counts
+                )
+            ],
+
+            'layout': {
+                'title': 'Distribution of  Genres by Aid Related Categorie',
+                'yaxis': {
+                    'title': "Count"
+                },
+                'xaxis': {
+                    'title': "Genres"
+                }
+            }
+        } 
     ]
     # encode plotly graphs in JSON
     ids = ["graph-{}".format(i) for i, _ in enumerate(graphs)]
