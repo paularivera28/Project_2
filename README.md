@@ -37,7 +37,7 @@ Follow the steps below to run the app
 3. Visit this link to see the Dashboard  http://0.0.0.0:3001/
 
 ## Results <a name="Results"></a>
-Here is an imagen of the resulting app create with all the development sollowed in the project
+Here is an image of the resulting app created with the development of the project
 
 
 ![image](https://user-images.githubusercontent.com/100497288/162784170-dd551273-df7c-476f-8937-02220a560f8c.png)
