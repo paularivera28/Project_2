@@ -8,17 +8,6 @@
 4. [Results](#Results)
 
 
-## Libraries <a name="Libraries"></a>
-
-In this project I use the following libraries in python:
-
-- Pandas
-- Numpy
-- math
-- json
-- matplotlib
-- sklearn
-
 ## Project Motivation <a name="motivation"></a>
 
 In this project I was interested in exploring the Airbnb this information was obtained from the Seattle Airbnb Open Data Kaggle site and that is available for everyone who wants to consult it, . In this dataset we can found information about the availability, prices, charactheristics of the listed places. I wanted to find out what characteristics could make the price of a place publiWhat type of rooms has the highest proportion of reservations in the next 60 days?
