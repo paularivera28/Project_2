@@ -2,25 +2,55 @@
 
 ## Table of Contents
 
-1. [Project Motivation](#motivation)
-2. [File Description](#Description)
-3. [Instructions](#Instructions)
-4. [Results](#Results)
+1. [Libraries](#Libraries)
+2. [Project Motivation](#motivation)
+3. [File Description](#Description)
+4. [Instructions](#Instructions)
+5. [Results](#Results)
 
+
+## Libraries <a name="Libraries"></a>
+
+In this project I use the following libraries in python:
+
+- Pandas
+- Numpy
+- math
+- json
+- matplotlib
+- sklearn
 
 ## Project Motivation <a name="motivation"></a>
-This project is part of the Data Scientist Nanodegree Program of udacity, who has the aim to implement a pipeline to transform and clean the data and create a classification model to analyse several messages and can know the generall idea of the message and give an adecuate response.
 
+This project is part of the Data Scientist Nanodegree Program of udacity, who has the aim to put in action all the sill we learn in the program, the idea is to understand the behavior of the clients based on thei characteristics and the interactions with the type of offert they recived in the final transaction or purshase by different media like web, social or mobile with the objective of determine the features that make and ofert succesful.
 
 ## Files Description <a name="Description"></a>
 
 The repositori has the following 3 folders
 
-- data: in this folder you can found the supplies for the project, that is the messages and the categories, also there you can foun the notebook used to transform and clean the data an the process_data.py who was the inprove code from the notebook and finaly DisasterResponse a dbo file with the transformed data.
+- portfolio.json
 
-- model: in this folder cotains the procedure to creat a pipeline for train, build and evaluate a clasiffication model, the model I select is a BaggingClassifier to categorize message this is on the filed train_classifier.py.
+id (string) - offer id
+offer_type (string) - type of offer ie BOGO, discount, informational
+difficulty (int) - minimum required spend to complete an offer
+reward (int) - reward given for completing an offer
+duration (int) - time for offer to be open, in days
+channels (list of strings)
 
-- app: in this folder cotains a the scrip run.py with the html templates given in the classroom necesary to run the API.
+- profile.json
+
+age (int) - age of the customer
+became_member_on (int) - date when customer created an app account
+gender (str) - gender of the customer (note some entries contain 'O' for other rather than M or F)
+id (str) - customer id
+income (float) - customer's income
+
+-transcript.json
+
+event (str) - record description (ie transaction, offer received, offer viewed, etc.)
+person (str) - customer id
+time (int) - time in hours since start of test. The data begins at time t=0
+value - (dict of strings) - either an offer id or transaction amount depending on the record
 
 
 ## Instructions <a name="Instructions"></a>
@@ -37,7 +67,10 @@ Follow the steps below to run the app
 3. Visit this link to see the Dashboard  http://0.0.0.0:3001/
 
 ## Results <a name="Results"></a>
-Here is an image of the resulting app created with the development of the project
+
+The blog with the result of the analisis is in this link  [post](https://paularivera288.wixsite.com/website/post/exploring-the-seattle-airbnb-data) 
+
+
 
 
 ![image](https://user-images.githubusercontent.com/100497288/162784170-dd551273-df7c-476f-8937-02220a560f8c.png)
